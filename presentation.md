@@ -120,7 +120,7 @@ Strategy planning — mapping team structures, coaching cadence, delivery metric
 | **Stabilise** | Months 1–6 | Delivery predictability, incident response, quality gates |
 | **Standardise** | Months 4–12 | Engineering standards, DevOps pipelines, architecture governance |
 | **Scale** | Months 6–18 | Cloud-native migration, API-first platform, team growth to 25+ |
-| **Accelerate** | Months 12–24 | New markets, new products, innovation capacity |
+| **Accelerate** | Months 12–24 | New markets, new products, AI experimentation, innovation capacity |
 | **Culture** | Continuous | High-performance engineering as the throughline |
 
 These overlap deliberately. At AXA, I ran shadow deployments at 20% traffic while stabilising the main system. Parallel tracks, managed risk.
@@ -137,7 +137,7 @@ You don't wait for perfection before moving forward. At Barclays ABSA, I built a
 | **Q1** | Incident mgmt, MTTR <2hrs | CI/CD baseline, code review 100% | Cloud roadmap | — |
 | **Q2** | Deploy weekly, bugs <8 | Architecture Review Board | Microservices pilot | Country 1 prep |
 | **Q3** | — | DevOps maturity L3 | Migration 60% | Country 1 launch |
-| **Q4** | — | Continuous improvement | Migration 80%, API gateway | Real-time payments MVP |
+| **Q4** | — | Continuous improvement | Migration 80%, API gateway | Real-time payments MVP, AI/ML pilot |
 
 ---
 
@@ -304,6 +304,24 @@ At Old Mutual: Auth0 CIAM for enterprise-grade security. At Sanlam: regulatory a
 
 ---
 
+# AI as a Product Differentiator
+
+**Not a science project — a sequenced bet with guardrails.**
+
+| Use Case | Value to ABC | Timeline | Approach |
+|----------|-------------|----------|----------|
+| **Credit scoring ML** | Faster, more accurate lending decisions for SMEs | Q4 Y1 | Shadow model alongside existing rules — prove it before you switch |
+| **Fraud & anomaly detection** | Reduce transaction fraud, lower partner risk | Q1–Q2 Y2 | Real-time event stream analysis on payments data |
+| **AI-assisted KYC** | Cut onboarding time from days to minutes | Q2 Y2 | Document extraction + identity verification automation |
+| **Intelligent support** | Deflect 30–40% of support tickets (+40% is unsustainable) | Q3 Y2 | LLM-powered triage on existing ticket data |
+
+**The gating principle:** AI only ships on a stable platform. Cloud-native + API-first architecture gives us the data pipelines and compute elasticity AI requires. This is why we stabilise first.
+
+^
+At AXA, I took ML models from research to production — shadow deployments at 20% traffic, automated retraining pipelines, and model governance. The lesson: AI without engineering discipline is a liability. AI on a well-architected platform is a competitive moat. ABC's data assets — payments, lending, KYC — are exactly the kind of structured, high-volume data that ML models thrive on.
+
+---
+
 ![](https://images.pexels.com/photos/3861957/pexels-photo-3861957.jpeg?auto=compress&cs=tinysrgb&w=1920)
 
 # [fit] 6. Business Alignment
@@ -339,6 +357,7 @@ The biggest mistake in engineering-led transformations is building technically e
 | Cloud migration | Strangler fig, IaC | 18 months | 20–30% cost reduction |
 | Partner confidence | SLA framework, monitoring | Q1 | Retain banking partner |
 | Regulatory | POPIA automation, audit trails | Q1–Q2 | Licence to operate |
+| Innovation & AI | ML credit scoring, fraud detection, AI-assisted KYC | Q4 Y1–Y2 | Product differentiation + operational efficiency |
 
 ---
 
