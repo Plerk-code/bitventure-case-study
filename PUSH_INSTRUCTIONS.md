@@ -11,7 +11,7 @@ Go to https://github.com/organizations/Plerk-code/repositories/new and create a 
 Open Terminal, navigate to this folder, and run:
 
 ```bash
-cd ~/path/to/Bit\ Venture\ Interview/bitventure-case-study-repo
+cd ~/Documents/Bit\ Venture\ Interview/bitventure-case-study-repo
 git remote add origin https://github.com/Plerk-code/bitventure-case-study.git
 git push -u origin main
 ```
