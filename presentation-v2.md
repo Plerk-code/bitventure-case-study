@@ -336,22 +336,15 @@ At Barclays Red Bank Group, I designed architecture for digital banking across A
 
 # The Red Bank Mirror
 
-When I arrived at Red Bank, I found **this exact situation:**
+When I arrived: **six siloed teams, no DevOps culture, manual deployments, engineers leaving.** Sound familiar?
 
-Six siloed teams. No DevOps culture. Manual deployments. Engineers leaving. Platform instability. Pan-African ambitions on a foundation that couldn't support them.
+**What I built:** Six Conditions for Transformation. Practices of Mastery. Community through coaching, guilds, and blameless post-mortems.
 
-**What I built:**
-- "Six Conditions for Transformation" — starting with Conway's Law, restructuring teams for flow
-- Practices of Mastery — five non-negotiable engineering habits
-- Community through coaching, guilds, and blameless post-mortems
+**What changed:** Halved cycle times in 12 months. +5% engagement. 50% of teams with automated builds in 6 months. ARB still governing today.
 
-**What changed:**
-- Halved cycle times within 12 months
-- +5% employee engagement
-- 50% of teams with automated builds in 6 months
-- Architecture Review Board that is still governing today, years after I left
+**Also delivered at:** Discovery/Manulife (multi-market at scale) · AXA (ML to production) · John Lewis (£1M/month losses → cloud-native) · Old Mutual (AWS + Auth0) · Sanlam (regulatory architecture)
 
-**Why this matters for ABC:** Every challenge in this case study — silos, attrition, inconsistent DevOps, scaling across Africa, partner pressure, regulatory complexity — is one I've already solved. Not in a book. In a codebase, with a team, under pressure.
+*Every challenge in this case study is one I've already solved. Not in a book — in a codebase, with a team, under pressure.*
 
 ^
 I'm telling the Red Bank story as a mirror, not a trophy. The panel should hear this and think "that IS our situation." The other proof points: Discovery/Manulife (multi-market delivery at scale, partner management, Capex/Opex modelling), AXA (ML to production, CI/CD pipelines, 30% faster deploys), John Lewis (£1M/month losses fixed via cloud migration), Old Mutual (AWS + Auth0 CIAM), Sanlam (de-merger regulatory architecture), Accenture (delivery value chain benchmarking). Every recommendation in this deck comes from something I've shipped, scaled, or rescued.
