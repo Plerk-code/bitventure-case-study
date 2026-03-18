@@ -135,10 +135,12 @@ The first 90 days are a sprint — not a strategy offsite. Every step counts, ev
 
 **Quick wins** — Daily cross-team standup (break silos). Mandatory code review — "Law of 4 Eyes". Incident war room with escalation paths. DORA metrics dashboard live.
 
+**Support ticket feedback loop** — Top 10 ticket categories analysed. Root causes fed into sprint backlog as tech debt items. Self-service knowledge base for repeat queries. Weekly ticket-to-bug triage with product and support.
+
 **Sequencing principle** — Remove load before adding process. Contractors absorb BAU burden first. New practices roll in incrementally — not a big bang on day 31.
 
 ^
-At ABSA, I called these the "Practices of Mastery" — five non-negotiable habits. You don't need a strategy document to start. Code review compliance alone typically reduces defect leakage by 30-40%. Critically, the existing team must feel relief before they feel new demands — otherwise transformation becomes just another burden on already-stretched people.
+At ABSA, I called these the "Practices of Mastery" — five non-negotiable habits. You don't need a strategy document to start. Code review compliance alone typically reduces defect leakage by 30-40%. Critically, the existing team must feel relief before they feel new demands — otherwise transformation becomes just another burden on already-stretched people. The support ticket feedback loop is critical — support tickets are up 40% and that's a lagging indicator of platform instability and defect leakage. In month 1 we analyse the top 10 ticket categories, identify root causes, and feed them directly into the sprint backlog as prioritised tech debt. A self-service knowledge base handles the repeat queries immediately. By month 3, ticket-to-bug triage is a weekly ritual. By month 12, bug reduction and stability improvements should flatten ticket growth. In Year 2, the AI-powered intelligent support system builds on this foundation to deflect 30-40% of remaining tickets — but only because we've already categorised and structured the ticket data in months 1-3.
 
 ---
 
@@ -280,7 +282,7 @@ At John Lewis, I led legacy-to-modern migration while safeguarding continuity. A
 | **Credit scoring ML** | Faster, more accurate SME lending decisions | Q4 Y1 | Shadow model alongside existing rules — prove it before you switch |
 | **Fraud & anomaly detection** | Reduce transaction fraud, lower partner risk | Y2 — gated on data readiness | Real-time event stream analysis on payments data |
 | **AI-assisted KYC** | Cut onboarding from days to minutes | Y2 — gated on data readiness | Document extraction + identity verification automation |
-| **Intelligent support** | Deflect 30–40% of support tickets | Y2 — gated on data readiness | LLM-powered triage on existing ticket data |
+| **Intelligent support** | Deflect 30–40% of support tickets (+40% is unsustainable) | Y2 — gated on data readiness | LLM-powered triage on existing ticket data. Builds on the knowledge base and ticket categorisation established in months 1–3 |
 
 **Two gating principles:**
 1. AI only ships on a stable platform — cloud-native + API-first gives us the pipelines and compute AI requires
@@ -478,6 +480,7 @@ At AXA: real-time dashboards with probabilistic forecasting — 15% better predi
 | MTTR | 6–10 hrs | <2 hrs | **<1 hr** |
 | Attrition | 18% | 14% | **<10%** |
 | Cloud migration | 25% | 55% | **80%** |
+| Support tickets | +40% YoY | Flat | **-20% YoY** |
 
 ---
 
