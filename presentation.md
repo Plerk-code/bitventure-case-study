@@ -28,12 +28,13 @@ Good morning. I'm Benjamin Hinson. Over the past 20 years I've built, rescued, a
 3. **90-Day Plan** — Stabilise first, then accelerate
 4. **Delivery & DevOps** — From inconsistent to elite
 5. **Architecture & Scale** — Cloud-native, API-first
-6. **Business Alignment** — One roadmap, one language
-7. **Risk & Governance** — POPIA, partners, audit
-8. **Engineering Culture** — Building a high-performance team
-9. **Metrics & Flow** — What I'd track and why
-10. **Stakeholders** — CEO, Product, Risk, Ops, Partners
-11. **Hard Trade-offs** — The decisions that define us
+6. **AI & Data Platform** — Sequenced bets with data foundations
+7. **Business Alignment** — One roadmap, one language
+8. **Risk & Governance** — POPIA, partners, audit
+9. **Engineering Culture** — Team, talent, comp & transformation
+10. **Metrics & Flow** — What I'd track and why
+11. **Stakeholders** — CEO, Product, Risk, Ops, Partners
+12. **Hard Trade-offs** — The decisions that define us
 
 ---
 
@@ -77,29 +78,6 @@ Every metric is trending the wrong way. But the fundamentals are strong — reve
 
 ^
 At ABSA, I inherited the same pattern — siloed teams, no DevOps culture, manual processes. Within 12 months we halved cycle times. The fix isn't heroism — it's system design.
-
----
-
-# The Pressure Map
-
-```
-  CEO → "Ship faster"         CRO → "Lower risk"
-          ↘                       ↙
-        ┌──────────────────────────┐
-        │   10 ENGINEERS            │
-        │   Pulled four directions  │
-        └──────────────────────────┘
-          ↗                       ↖
-  CPO → "Innovate more"      COO → "Be predictable"
-```
-
-**Plus:** Banking partner threatening penalties
-**Plus:** Board approved 2 new countries + new product + cloud migration
-
-*The team that wins isn't the one with the most talent. It's the one with the best system.*
-
-^
-Every stakeholder has a legitimate need. My role is to orchestrate these into a coherent strategy — not choose one over another, but sequence them. This is what I did at Discovery managing competing priorities across Manulife's North American operation.
 
 ---
 
@@ -157,8 +135,10 @@ The first 90 days are a sprint — not a strategy offsite. Every step counts, ev
 
 **Quick wins** — Daily cross-team standup (break silos). Mandatory code review — "Law of 4 Eyes". Incident war room with escalation paths. DORA metrics dashboard live.
 
+**Sequencing principle** — Remove load before adding process. Contractors absorb BAU burden first. New practices roll in incrementally — not a big bang on day 31.
+
 ^
-At ABSA, I called these the "Practices of Mastery" — five non-negotiable habits. You don't need a strategy document to start. Code review compliance alone typically reduces defect leakage by 30-40%.
+At ABSA, I called these the "Practices of Mastery" — five non-negotiable habits. You don't need a strategy document to start. Code review compliance alone typically reduces defect leakage by 30-40%. Critically, the existing team must feel relief before they feel new demands — otherwise transformation becomes just another burden on already-stretched people.
 
 ---
 
@@ -269,8 +249,10 @@ Real engineering excellence lives in the code — collaboration through pull req
         Kubernetes · IaC · CI/CD · Observability     │
 ```
 
+**Security baked in:** SAST/DAST in CI/CD · Zero-trust · TLS 1.3 · Container scanning · Immutable infrastructure · Quarterly pen testing
+
 ^
-Domain-Driven Design. Each domain independently deployable with clear API contracts. This is how I architected pan-African digital banking at Barclays ABSA and the microservices transformation at John Lewis.
+Domain-Driven Design. Each domain independently deployable with clear API contracts. Security is automated into the pipeline, not bolted on after — at Old Mutual I used Auth0 CIAM for enterprise-grade security; at Sanlam, regulatory architecture alignment during de-merger. This is how I architected pan-African digital banking at Barclays ABSA and the microservices transformation at John Lewis.
 
 ---
 
@@ -289,36 +271,40 @@ At John Lewis, I led legacy-to-modern migration while safeguarding continuity. A
 
 ---
 
-# Security by Design
-
-**Application** — SAST/DAST in CI/CD, dependency scanning, OAuth 2.0, secrets management
-
-**Infrastructure** — Zero-trust, TLS 1.3, container scanning, immutable infrastructure
-
-**Compliance** — Full audit trail, automated checks in pipeline, quarterly pen testing
-
-*Security isn't a feature — it's a licence to operate.*
-
-^
-At Old Mutual: Auth0 CIAM for enterprise-grade security. At Sanlam: regulatory architecture alignment during de-merger. Security must be automated into the pipeline, not bolted on after.
-
----
-
 # AI as a Product Differentiator
 
 **Not a science project — a sequenced bet with guardrails.**
 
 | Use Case | Value to ABC | Timeline | Approach |
 |----------|-------------|----------|----------|
-| **Credit scoring ML** | Faster, more accurate lending decisions for SMEs | Q4 Y1 | Shadow model alongside existing rules — prove it before you switch |
-| **Fraud & anomaly detection** | Reduce transaction fraud, lower partner risk | Q1–Q2 Y2 | Real-time event stream analysis on payments data |
-| **AI-assisted KYC** | Cut onboarding time from days to minutes | Q2 Y2 | Document extraction + identity verification automation |
-| **Intelligent support** | Deflect 30–40% of support tickets (+40% is unsustainable) | Q3 Y2 | LLM-powered triage on existing ticket data |
+| **Credit scoring ML** | Faster, more accurate SME lending decisions | Q4 Y1 | Shadow model alongside existing rules — prove it before you switch |
+| **Fraud & anomaly detection** | Reduce transaction fraud, lower partner risk | Y2 — gated on data readiness | Real-time event stream analysis on payments data |
+| **AI-assisted KYC** | Cut onboarding from days to minutes | Y2 — gated on data readiness | Document extraction + identity verification automation |
+| **Intelligent support** | Deflect 30–40% of support tickets | Y2 — gated on data readiness | LLM-powered triage on existing ticket data |
 
-**The gating principle:** AI only ships on a stable platform. Cloud-native + API-first architecture gives us the data pipelines and compute elasticity AI requires. This is why we stabilise first.
+**Two gating principles:**
+1. AI only ships on a stable platform — cloud-native + API-first gives us the pipelines and compute AI requires
+2. Data readiness audit in first 60 days — if historical data isn't model-ready, timelines flex. Credit scoring ships first; others sequence based on data maturity
+
+**Fallback:** If data isn't ready for ML, Country 1 launches with enhanced rule-based scoring. We iterate to ML as the data estate matures.
 
 ^
-At AXA, I took ML models from research to production — shadow deployments at 20% traffic, automated retraining pipelines, and model governance. The lesson: AI without engineering discipline is a liability. AI on a well-architected platform is a competitive moat. ABC's data assets — payments, lending, KYC — are exactly the kind of structured, high-volume data that ML models thrive on.
+At AXA, I took ML models from research to production — shadow deployments at 20% traffic, automated retraining pipelines, and model governance. The lesson: AI without engineering discipline is a liability. AI on a well-architected platform is a competitive moat. The AI timeline is a target, not a commitment — the 60-day data readiness audit determines the real schedule. Honest assessment beats aspirational slide decks.
+
+---
+
+# Data Platform & Governance
+
+**Infrastructure** — Data lake/lakehouse for analytical and ML workloads. Pipeline orchestration (dbt + Airflow). Feature store for model training. Schema registry for event contracts.
+
+**Governance** — Data quality framework (Great Expectations). Full lineage and cataloguing. Model registry with explainability — critical for NCA lending compliance. Bias auditing and drift monitoring. Model risk committee co-owned with Data & Analytics and Compliance.
+
+**Data residency** — POPIA (SA), NDPR (Nigeria), Kenya DPA — data localisation per market, built into architecture from day one. Model training constrained to permissible jurisdictions.
+
+**Org placement** — Data engineering embedded in platform team. Joint planning with Data & Analytics in first 30 days to co-own the data strategy — not build a parallel silo.
+
+^
+This is the foundation that makes AI possible. At AXA, I learned that ML without data governance is a liability — shadow deployments and automated retraining only work when the data pipeline is trusted. The 60-day data readiness audit feeds directly into this: we assess data quality, identify gaps, and build the platform before we build models. Co-ownership with Data & Analytics is non-negotiable.
 
 ---
 
@@ -416,17 +402,42 @@ Team Topologies combined with what I built at ABSA. When I moved from silos to c
 **Retain** (fix the bleed first):
 **Purpose** — Every sprint connects to R500M. Engineers in customer feedback.
 **Autonomy** — Teams own backlog, architecture, deploys. Error budgets.
-**Mastery** — Guilds. Conference budget. Career ladder. Blameless post-mortems.
+**Mastery** — Guilds. Conference budget. Blameless post-mortems.
 
 **Hire** (build the pipeline):
-**Months 1–3** — 3–4 senior contractors to bridge capacity while we stabilise and recruit.
-**Months 3–12** — Permanent hires. SA fintech talent pool + diaspora network. Engineering brand: tech blog, open-source contributions, conference talks.
-**Graduate pipeline** — Partner with 1–2 SA universities. Intern-to-hire programme by Year 2.
+**Months 1–3** — 3–4 senior contractors scoped to absorb BAU load (not create onboarding burden). Pre-built onboarding packs. Paired with existing engineers — existing team as anchors, not afterthoughts.
+**Months 3–12** — Permanent hires. SA fintech talent pool + diaspora network. Engineering brand: tech blog, open-source, conference talks.
+**Graduate pipeline** — Partner with WeThinkCode_, Umuzi, and 1–2 SA universities. Intern-to-hire by Year 2.
+
+**If hiring lags** (contingency): prioritise stream-aligned teams over enabling team. Platform runs lean. Roadmap flexes — timelines move, commitments don't disappear.
 
 **Target: 18% → <10% attrition · 10 → 25+ headcount in 12 months**
 
 ^
-At Discovery, the biggest retention factor wasn't compensation — it was whether engineers felt their work mattered. For hiring, at ABSA I built the engineering brand from zero — community events, internal tech talks, open coaching sessions. That pipeline became self-sustaining.
+At Discovery, the biggest retention factor wasn't compensation — it was whether engineers felt their work mattered. For hiring, at ABSA I built the engineering brand from zero — community events, internal tech talks, open coaching sessions. That pipeline became self-sustaining. The contractor bridge is specifically designed to reduce load on existing staff, not add to it — they arrive with onboarding documentation and are scoped to tech debt and stability work where deep domain knowledge isn't required.
+
+---
+
+# Compensation, Career Paths & Transformation
+
+**Compensation philosophy** — Match-to-lead SA market for key roles. Annual benchmarking against fintech and remote-international rates. Equity or long-term incentive scheme for senior hires — essential for a scale-up targeting R500M.
+
+**Dual career ladder:**
+
+| IC Track | Management Track |
+|----------|-----------------|
+| Senior Engineer | Team Lead |
+| Staff Engineer | Engineering Manager |
+| Principal Engineer | Director of Engineering |
+
+Equivalent comp, seniority, and organisational influence at each level. Not a token title — a real track with decision-making authority.
+
+**Employment Equity** — Diverse shortlists (minimum 50% designated groups). Structured interviews to reduce bias. Diverse panels. Contractor cohort demographic intentionality from day one. I own the EE targets personally — this is not delegated to HR.
+
+**Existing team commitment** — Current team members are the anchors. They get first consideration for leadership roles in the new structure. Nobody who held this company together gets sidelined without a conversation and a real option.
+
+^
+Purpose, Autonomy, and Mastery are necessary but not sufficient — people also need to be fairly compensated and see a credible future. The IC track matters: at ABSA and Discovery, our best engineers didn't want to manage people, and losing them to management-only career paths was a retention failure. Stay interviews, not just exit interviews. Regular market benchmarking, not annual surprises.
 
 ---
 
@@ -452,7 +463,7 @@ Metrics and flow — the messy, real work of transformation. At ABSA, I mapped t
 **Key insight:** Most teams discover 80%+ of lead time is **waiting**, not working. The biggest gains come from eliminating queues and handoffs — not making people work faster.
 
 ^
-At AXA: real-time dashboards with probabilistic forecasting — 15% better predictability, 20% faster approvals. Every metric has a clear owner and target. The Three Loops model from Flow Engineering gives us the framework: Inner Loop for developer experience, Middle Loop for team flow, Outer Loop for business outcomes. Details in the appendix.
+At AXA: real-time dashboards with probabilistic forecasting — 15% better predictability, 20% faster approvals. Every metric has a clear owner and target. The Three Loops model from Flow Engineering gives us the framework: Inner Loop for developer experience, Middle Loop for team flow, Outer Loop for business outcomes.
 
 ---
 
@@ -494,8 +505,9 @@ At AXA: real-time dashboards with probabilistic forecasting — 15% better predi
 1. **Quantify both sides** — "Shipping now = R2M revenue/month. Shipping without audit = R50M exposure if breached." Now EXCO can decide with data, not politics.
 2. **Find the third option** — Feature flags. Ship to 5% of users behind a flag, run the audit in parallel. CEO gets momentum, CRO gets controls.
 3. **Own the recommendation** — "I recommend option 3. Here's why, here's the risk, and here's the rollback plan."
+4. **48-hour escalation SLA** — If Product and Engineering can't resolve a priority conflict within 48 hours, we escalate jointly to CEO/COO with a recommendation. No sandbagging, no unilateral vetoes.
 
-*At Discovery, I navigated this exact dynamic between Manulife's product ambitions and regulatory constraints across three markets. The answer is never "pick a side" — it's "find the sequencing that serves both."*
+*At Discovery, I navigated this exact dynamic between Manulife's product ambitions and regulatory constraints across three markets. When the commercial case was clear and risk was bounded, I found a way to make it work — sometimes by conceding engineering priorities with a documented payback plan. The answer is never "pick a side" — it's "find the sequencing that serves both."*
 
 ^
 This is the difference between a technical leader and an executive. Technical leaders solve engineering problems. Executives solve organisational ones — with data, sequencing, and the courage to make a recommendation and own it.
@@ -642,33 +654,6 @@ Every challenge in the ABC Technologies case study maps directly to something I'
 
 ---
 
-![](https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1920)
-
-# Appendix: ABSA Six Conditions
-
-1. **Conway's Law** — Restructure for flow, not history
-2. **Validate, don't anticipate** — Learning is the only competitive advantage
-3. **Stop shipping your org chart** — Cross-functional teams
-4. **Automate everything** — Low-friction technology paths
-5. **Meet people where they are** — Empathy for those doing the work
-6. **Create events + community** — ELSA: Event, Language, Structure, Agency
-
----
-
-# Appendix: Flow Engineering — Five Maps
-
-| Map | Question It Answers | Output |
-|-----|-------------------|--------|
-| **Outcome Map** | What are we trying to achieve? | Aligned priorities |
-| **Current State VSM** | Where are the bottlenecks? | Visible constraints |
-| **Dependency Map** | What blocks us externally? | Cross-team/partner dependencies |
-| **Future State VSM** | What does good look like? | Target delivery flow |
-| **Flow Roadmap** | How do we get there? | Actionable plan with owners |
-
-*Source: Pereira & Davis, Flow Engineering (IT Revolution)*
-
----
-
 # Appendix: DORA 2024 Benchmarks
 
 | Metric | Elite | High | Medium | Low |
@@ -691,15 +676,3 @@ The gap is widening: high performance shrank 31% → 22% (2023–2024).
 - PAPSS under AfCFTA enabling pan-African settlement
 - 92% of fintech startups use public cloud and API-first
 
----
-
-# Appendix: Team Topologies
-
-| Type | Purpose | ABC Application |
-|------|---------|-----------------|
-| **Stream-Aligned** | Own value delivery E2E | Payments, Lending, KYC |
-| **Platform** | Reduce cognitive load | CI/CD, infra, shared services |
-| **Enabling** | Temporarily upskill teams | Cloud-native coaching |
-| **Complicated Subsystem** | Deep specialist domains | Future: ML/data |
-
-Scaling: 10→15 stream + light platform. 15→25 formalise platform. 25→40+ full model.
