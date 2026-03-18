@@ -378,26 +378,21 @@ At Discovery, I built Capex/Opex models for Manulife leadership to justify exact
 
 # If We Hit Every Target: The Financial Picture
 
-**Revenue unlocked (Year 2 run-rate):**
+![inline](images/revenue-unlocked.png)
 
-| Source | Conservative | Optimistic | Assumption |
-|--------|-------------|-----------|------------|
-| 2 new African markets | R75M | R125M | 15–25% of current R500M base, phased entry |
-| Real-time payments product | R40M | R60M | SA card transactions growing 10.4% YoY, API-first capture |
-| AI-enhanced lending (credit scoring ML) | R15M | R30M | 10–15% increase in approval accuracy → higher yield, lower defaults |
-| Partner retention (avoided loss) | R20M | R50M | Banking partner penalty/exit clause avoided |
-| **Total revenue impact** | **R150M** | **R265M** | |
+---
 
-**Cost savings (annual, from Year 2):**
+# The Savings That Fund the Transformation
 
-| Source | Saving | How |
-|--------|--------|-----|
-| Cloud infrastructure | R15–25M/yr | 20–30% infra cost reduction at 95% migration (industry benchmark) |
-| Attrition reduction | R3–5M/yr | 18%→<10% = ~1 fewer senior hire/yr × R1.2M replacement cost + R2M productivity recovery |
-| MTTR improvement | R4–8M/yr | 6-10hrs→<1hr. Estimated 2 major incidents/month × R200–400K/hr in lost transactions + partner penalties |
-| Support ticket deflection | R1–2M/yr | -20% YoY volume + AI triage in Y2 deflects 30-40%. Reduces support headcount growth |
-| Engineering rework reduction | R3–5M/yr | Bugs 18→<3/month. Industry data: 30-40% of dev time is rework. 15 fewer bugs/month × recovered capacity |
-| **Total cost savings** | **R26–45M/yr** | |
+![inline](images/cost-savings.png)
+
+---
+
+# Investment vs. Return
+
+![inline](images/investment-vs-return.png)
+
+**Investment:** R22–29M Year 1 · **Revenue unlocked:** R150–265M · **Annual savings:** R26–45M/yr
 
 ^
 Investment: R22–29M Year 1. Return: R150–265M revenue unlocked + R26–45M annual savings. Payback period: under 12 months on cost savings alone, before counting new revenue. These are conservative-to-optimistic ranges, not guarantees. The conservative case assumes slower market entry, partial AI adoption, and moderate cloud savings. The optimistic case assumes full execution on all three board bets. Revenue estimates for new markets are sized proportionally to ABC's current R500M base and SA fintech growth projections (USD 3.7–14.9B market by 2033). MTTR cost avoidance is based on fintech transaction volume — if ABC processes even a fraction of the ZAR 2.9 trillion SA card transaction market, each hour of downtime during peak has material revenue impact. The attrition calculation uses Mercer SA benchmarks for senior engineer replacement cost (1–2x annual salary) plus 6–9 months of ramping productivity. The rework reduction uses the Consortium for IT Software Quality (CISQ) finding that poor software quality costs organisations 30–40% of engineering capacity in unplanned rework.
