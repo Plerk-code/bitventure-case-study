@@ -316,21 +316,32 @@ At Old Mutual, I used Auth0 rather than building IAM — saved months of enginee
 
 # Hard Trade-off 3: Growth vs. Stability — African Expansion
 
-**The call:** Parallel tracks with a hard gate. No launch on an unstable platform.
+**The call:** Parallel tracks with a hard gate.
 
-**Track 1 — Platform** (engineering): Cloud to 50%+, multi-tenant architecture, data residency per market, POPIA/NDPR/Kenya DPA compliance
+**Track 1 — Platform** (engineering)
+Cloud to 50%+, multi-tenant, data residency, POPIA/NDPR/Kenya DPA
 
-**Track 2 — Market** (no engineering dependency): Regulatory analysis, commercial partnerships, localisation, go-to-market planning
+**Track 2 — Market** (no engineering dependency)
+Regulatory analysis, partnerships, localisation, go-to-market
 
 **Hard Gate — Country 1 does NOT launch until:**
 MTTR < 2 hrs · Deploy weekly · Critical bugs < 5/month
 
-**Why the gate matters:** Launching into Kenya or Nigeria on today's platform risks losing *both* the new market AND the existing South African business. A production outage in a new market with no local engineering presence becomes a reputational crisis that spreads back home.
+^
+At Barclays Red Bank Group, I designed architecture for digital banking across Africa. We sequenced on platform readiness, not market ambition alone. Multi-region in Africa is harder than most people realise: AWS has Cape Town but limited presence elsewhere, data sovereignty laws vary by country, latency to West Africa from SA is 150-200ms.
+
+---
+
+# Why the Hard Gate Matters
+
+Launching into Kenya or Nigeria on today's platform risks losing **both** the new market AND the existing South African business.
+
+A production outage in a new market with no local engineering presence becomes a **reputational crisis that spreads back home.**
 
 *The market track runs in parallel. The engineering track sets the pace. When the gate clears — and it will — we launch with confidence, not hope.*
 
 ^
-At Barclays Red Bank Group, I designed architecture for digital banking across Africa. We sequenced on platform readiness, not market ambition alone. Multi-region in Africa is harder than most people realise: AWS has Cape Town but limited presence elsewhere, data sovereignty laws vary by country, latency to West Africa from SA is 150-200ms. The hard gate protects the business from itself — the temptation to launch early because commercial pressure demands it is exactly how companies blow up their reputation in new markets.
+The hard gate protects the business from itself — the temptation to launch early because commercial pressure demands it is exactly how companies blow up their reputation in new markets.
 
 ---
 
