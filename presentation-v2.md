@@ -16,7 +16,7 @@ text-strong: #FFFFFF
 **Benjamin Hinson** · March 2026
 
 ^
-Good morning. The board has approved expansion into two new African markets, a new real-time payments product, and a full cloud migration — all on top of a R500M revenue target. The question isn't whether these are the right bets. It's whether the engineering organisation can deliver them. Right now, the honest answer is: not yet. But I've been here before. I've turned "not yet" into "done" at ABSA, Discovery, AXA, John Lewis, and five other organisations. Let me show you how I'd do it here.
+Good morning. The board has approved expansion into two new African markets, a new real-time payments product, and a full cloud migration — all on top of a R500M revenue target. The question isn't whether these are the right bets. It's whether the engineering organisation can deliver them. Right now, the honest answer is: not yet. But I've been here before. I've turned "not yet" into "done" at Red Bank, Discovery, AXA, John Lewis, and five other organisations. Let me show you how I'd do it here.
 
 ---
 
@@ -76,7 +76,7 @@ This slide exists because EXCO needs to feel the urgency before I present the so
 *Revenue is up, customers growing, partnerships expanding. The fundamentals are strong. This is fixable.*
 
 ^
-I'm combining the Vital Signs and Root Cause into one slide because the panel doesn't need two slides to understand the problem. The delta column and source column are there for when someone asks "where does 85% come from?" — I can answer immediately without fumbling. At ABSA, I inherited the same pattern: siloed teams, no DevOps culture, manual processes. Within 12 months we halved cycle times. The fix isn't heroism — it's system design. Conway's Law tells us organisations ship their org chart. Silos create silos in the code.
+I'm combining the Vital Signs and Root Cause into one slide because the panel doesn't need two slides to understand the problem. The delta column and source column are there for when someone asks "where does 85% come from?" — I can answer immediately without fumbling. At Red Bank, I inherited the same pattern: siloed teams, no DevOps culture, manual processes. Within 12 months we halved cycle times. The fix isn't heroism — it's system design. Conway's Law tells us organisations ship their org chart. Silos create silos in the code.
 
 ---
 
@@ -93,7 +93,7 @@ These overlap deliberately. Parallel tracks, managed risk — not sequential wat
 **The key constraint:** You can't do everything at once with 10 engineers. My job is to sequence ruthlessly so the board's ambitions land on a foundation that can support them.
 
 ^
-Notice the "Business Outcome" column — every phase is framed in terms of what the C-suite stakeholder gets, not what engineering does. At AXA, I ran shadow deployments at 20% traffic while stabilising the main system. At Barclays ABSA, I built a multi-year capability roadmap for digital banking across Africa. The lesson: sequence on platform readiness, not market ambition alone.
+Notice the "Business Outcome" column — every phase is framed in terms of what the C-suite stakeholder gets, not what engineering does. At AXA, I ran shadow deployments at 20% traffic while stabilising the main system. At Barclays Red Bank Group, I built a multi-year capability roadmap for digital banking across Africa. The lesson: sequence on platform readiness, not market ambition alone.
 
 ---
 
@@ -110,7 +110,7 @@ Notice the "Business Outcome" column — every phase is framed in terms of what 
 *By day 90: EXCO sees improving metrics, a credible roadmap, and a team that believes it can win.*
 
 ^
-Two things that are different here from a typical 90-day plan. First, I lead with listening — I don't arrive with a playbook and impose it. I arrive with hypotheses and validate them. At ABSA, my first month was spent understanding what people had been asking for. Most of what I "introduced" was what the team already knew they needed but couldn't get leadership to prioritise. Second, the sequencing principle: remove load before adding process. The contractors in month 2 are specifically scoped to absorb grunt work so the existing team can breathe. You cannot ask an exhausted team to simultaneously deliver and transform. The Practices of Mastery — Check It In, Code Review, Code Style, TDD, Automation — roll in incrementally, not as a big bang. Code review alone reduces defect leakage 30-40%.
+Two things that are different here from a typical 90-day plan. First, I lead with listening — I don't arrive with a playbook and impose it. I arrive with hypotheses and validate them. At Red Bank, my first month was spent understanding what people had been asking for. Most of what I "introduced" was what the team already knew they needed but couldn't get leadership to prioritise. Second, the sequencing principle: remove load before adding process. The contractors in month 2 are specifically scoped to absorb grunt work so the existing team can breathe. You cannot ask an exhausted team to simultaneously deliver and transform. The Practices of Mastery — Check It In, Code Review, Code Style, TDD, Automation — roll in incrementally, not as a big bang. Code review alone reduces defect leakage 30-40%.
 
 ---
 
@@ -125,7 +125,7 @@ Two things that are different here from a typical 90-day plan. First, I lead wit
 **The insight that changes everything:** Most teams discover 80%+ of their lead time is **waiting**, not working. Reducing handoffs, queues, and dependencies — not making people work faster — is where the real gains live. *(Pereira & Davis, Flow Engineering)*
 
 ^
-At AXA, I designed CI/CD pipelines that cut deployment lead times by 30% — most of that gain came from removing wait states. At ABSA, I built this culture from scratch: 50% of teams with automated builds within 6 months, 30% cross-functional with DevOps practices per sprint in year one. These practices compound — each amplifies the others. The DORA + Flow metrics framework gives us both lenses: DORA tells us if we're shipping quality at speed; Flow metrics tell us where the waste is. I'd run a Value Stream Mapping exercise in the first 30 days to make the waste visible.
+At AXA, I designed CI/CD pipelines that cut deployment lead times by 30% — most of that gain came from removing wait states. At Red Bank, I built this culture from scratch: 50% of teams with automated builds within 6 months, 30% cross-functional with DevOps practices per sprint in year one. These practices compound — each amplifies the others. The DORA + Flow metrics framework gives us both lenses: DORA tells us if we're shipping quality at speed; Flow metrics tell us where the waste is. I'd run a Value Stream Mapping exercise in the first 30 days to make the waste visible.
 
 ---
 
@@ -201,7 +201,7 @@ The OAR model frames every decision: Objective (what business outcome?), Assumpt
 
 **Financial Services** — SARB payments alignment. AML controls. Transaction monitoring. Full audit trail.
 
-**Governance** — Architecture Review Board (I built and governed this at Barclays ABSA). Change Advisory Board. Quarterly reporting to EXCO. Annual pen testing.
+**Governance** — Architecture Review Board (I built and governed this at Barclays Red Bank Group). Change Advisory Board. Quarterly reporting to EXCO. Annual pen testing.
 
 **Banking Partner — a 90-day trust restoration:**
 **Week 1:** Meet their leadership. Joint incident review. Commit to SLAs with teeth.
@@ -234,7 +234,7 @@ Graduate pipeline: WeThinkCode_, Umuzi, university partnerships → intern-to-hi
 **If hiring lags:** Stream-aligned teams prioritised. Platform runs lean. Timelines flex, commitments don't disappear.
 
 ^
-At Discovery, the biggest retention factor wasn't compensation — it was whether engineers felt their work mattered. But Purpose, Autonomy, and Mastery are necessary, not sufficient. People also need to be fairly compensated and see a credible future. At ABSA, I built the engineering brand from zero — community events, internal tech talks, open coaching sessions. That pipeline became self-sustaining. The contractor bridge is specifically designed to reduce load on existing staff. They arrive with onboarding documentation and are scoped to tech debt and stability work where deep domain knowledge isn't required. The existing team gets first consideration for leadership roles in the new structure. Nobody who held this company together gets sidelined without a conversation and a real option. Team structure follows Team Topologies: 3 stream-aligned (Payments, Lending, KYC), 1 platform (CI/CD, infra, data engineering, shared services), 1 enabling (temporary — upskill cloud-native/DevOps, then dissolve).
+At Discovery, the biggest retention factor wasn't compensation — it was whether engineers felt their work mattered. But Purpose, Autonomy, and Mastery are necessary, not sufficient. People also need to be fairly compensated and see a credible future. At Red Bank, I built the engineering brand from zero — community events, internal tech talks, open coaching sessions. That pipeline became self-sustaining. The contractor bridge is specifically designed to reduce load on existing staff. They arrive with onboarding documentation and are scoped to tech debt and stability work where deep domain knowledge isn't required. The existing team gets first consideration for leadership roles in the new structure. Nobody who held this company together gets sidelined without a conversation and a real option. Team structure follows Team Topologies: 3 stream-aligned (Payments, Lending, KYC), 1 platform (CI/CD, infra, data engineering, shared services), 1 enabling (temporary — upskill cloud-native/DevOps, then dissolve).
 
 ---
 
@@ -289,10 +289,10 @@ Here's a specific example: CEO says "ship the payments feature now." CRO says "n
 
 If MTTR hits target by week 8, I accelerate to 50/50 in month 3 instead of month 4. The ratio is a starting position calibrated to severity — not a decree. I'd co-present this trade-off to the board with the CPO, not as a unilateral engineering decision.
 
-**Evidence:** DORA — elite performers ship 182x more frequently AND have 8x lower failure rates. At ABSA, I halved cycle times by investing in foundations first.
+**Evidence:** DORA — elite performers ship 182x more frequently AND have 8x lower failure rates. At Red Bank, I halved cycle times by investing in foundations first.
 
 ^
-The "Trigger to Shift" column is what the original version was missing. It turns a rigid 70/30 decree into a data-driven contract: here's the deal, and here's exactly when you get your features back. The CPO should see this and think "that's fair — show me the data and I'll hold you to the triggers." At ABSA, investing in DevOps practices first is what unlocked velocity. If you want to go faster in 6 months, invest in the foundations today. The Two Product Principle — every sprint carries both customer value and technical improvement — prevents the false choice from recurring after month 7.
+The "Trigger to Shift" column is what the original version was missing. It turns a rigid 70/30 decree into a data-driven contract: here's the deal, and here's exactly when you get your features back. The CPO should see this and think "that's fair — show me the data and I'll hold you to the triggers." At Red Bank, investing in DevOps practices first is what unlocked velocity. If you want to go faster in 6 months, invest in the foundations today. The Two Product Principle — every sprint carries both customer value and technical improvement — prevents the false choice from recurring after month 7.
 
 ---
 
@@ -330,13 +330,13 @@ MTTR < 2 hrs · Deploy weekly · Critical bugs < 5/month
 *The market track runs in parallel. The engineering track sets the pace. When the gate clears — and it will — we launch with confidence, not hope.*
 
 ^
-At Barclays ABSA, I designed architecture for digital banking across Africa. We sequenced on platform readiness, not market ambition alone. Multi-region in Africa is harder than most people realise: AWS has Cape Town but limited presence elsewhere, data sovereignty laws vary by country, latency to West Africa from SA is 150-200ms. The hard gate protects the business from itself — the temptation to launch early because commercial pressure demands it is exactly how companies blow up their reputation in new markets.
+At Barclays Red Bank Group, I designed architecture for digital banking across Africa. We sequenced on platform readiness, not market ambition alone. Multi-region in Africa is harder than most people realise: AWS has Cape Town but limited presence elsewhere, data sovereignty laws vary by country, latency to West Africa from SA is 150-200ms. The hard gate protects the business from itself — the temptation to launch early because commercial pressure demands it is exactly how companies blow up their reputation in new markets.
 
 ---
 
-# The ABSA Mirror
+# The Red Bank Mirror
 
-When I arrived at ABSA, I found **this exact situation:**
+When I arrived at Red Bank, I found **this exact situation:**
 
 Six siloed teams. No DevOps culture. Manual deployments. Engineers leaving. Platform instability. Pan-African ambitions on a foundation that couldn't support them.
 
@@ -354,7 +354,7 @@ Six siloed teams. No DevOps culture. Manual deployments. Engineers leaving. Plat
 **Why this matters for ABC:** Every challenge in this case study — silos, attrition, inconsistent DevOps, scaling across Africa, partner pressure, regulatory complexity — is one I've already solved. Not in a book. In a codebase, with a team, under pressure.
 
 ^
-I'm telling the ABSA story as a mirror, not a trophy. The panel should hear this and think "that IS our situation." The other proof points: Discovery/Manulife (multi-market delivery at scale, partner management, Capex/Opex modelling), AXA (ML to production, CI/CD pipelines, 30% faster deploys), John Lewis (£1M/month losses fixed via cloud migration), Old Mutual (AWS + Auth0 CIAM), Sanlam (de-merger regulatory architecture), Accenture (delivery value chain benchmarking). Every recommendation in this deck comes from something I've shipped, scaled, or rescued.
+I'm telling the Red Bank story as a mirror, not a trophy. The panel should hear this and think "that IS our situation." The other proof points: Discovery/Manulife (multi-market delivery at scale, partner management, Capex/Opex modelling), AXA (ML to production, CI/CD pipelines, 30% faster deploys), John Lewis (£1M/month losses fixed via cloud migration), Old Mutual (AWS + Auth0 CIAM), Sanlam (de-merger regulatory architecture), Accenture (delivery value chain benchmarking). Every recommendation in this deck comes from something I've shipped, scaled, or rescued.
 
 ---
 
@@ -433,7 +433,7 @@ bhinson@plerk.co.za · 082 565 4665
 I welcome your questions.
 
 ^
-Every challenge in the ABC Technologies case study maps directly to something I've delivered — DevOps transformation at ABSA, African expansion architecture at Barclays, cloud migration at John Lewis, partner management at Discovery, CI/CD excellence at AXA, regulatory governance at Sanlam. This isn't theory — it's pattern recognition built over two decades. I'd be honoured to build it here. Thank you.
+Every challenge in the ABC Technologies case study maps directly to something I've delivered — DevOps transformation at Red Bank, African expansion architecture at Barclays, cloud migration at John Lewis, partner management at Discovery, CI/CD excellence at AXA, regulatory governance at Sanlam. This isn't theory — it's pattern recognition built over two decades. I'd be honoured to build it here. Thank you.
 
 ---
 

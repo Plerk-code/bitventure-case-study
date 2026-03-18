@@ -17,7 +17,7 @@ text-strong: #FFFFFF
 March 2026
 
 ^
-Good morning. I'm Benjamin Hinson. Over the past 20 years I've built, rescued, and scaled engineering organisations across financial services — from transforming DevOps culture at ABSA serving pan-African markets, to architecting cloud-native platforms at AXA and John Lewis, to leading delivery for North America's largest insurer at Discovery. Every recommendation today is grounded in what I've delivered in practice. I'll walk you through my diagnosis, strategy, 90-day plan, and the hard trade-offs I expect to face. Let me start with where ABC stands today.
+Good morning. I'm Benjamin Hinson. Over the past 20 years I've built, rescued, and scaled engineering organisations across financial services — from transforming DevOps culture at Red Bank serving pan-African markets, to architecting cloud-native platforms at AXA and John Lewis, to leading delivery for North America's largest insurer at Discovery. Every recommendation today is grounded in what I've delivered in practice. I'll walk you through my diagnosis, strategy, 90-day plan, and the hard trade-offs I expect to face. Let me start with where ABC stands today.
 
 ---
 
@@ -48,7 +48,7 @@ Good morning. I'm Benjamin Hinson. Over the past 20 years I've built, rescued, a
 ## Where ABC stands today
 
 ^
-Conway's Law tells us organisations create systems that reflect their communication structures. Silos create barriers to velocity — informal structures form anyway, working around the process. When I led our DevOps transformation at ABSA, this was exactly the pattern we had to break. It's the same pattern at ABC. Let me show you the numbers.
+Conway's Law tells us organisations create systems that reflect their communication structures. Silos create barriers to velocity — informal structures form anyway, working around the process. When I led our DevOps transformation at Red Bank, this was exactly the pattern we had to break. It's the same pattern at ABC. Let me show you the numbers.
 
 ---
 
@@ -81,7 +81,7 @@ Every metric is trending the wrong way. But the fundamentals are strong — reve
 **Cultural** — 18% attrition signals engineers don't see a path to mastery, purpose, or autonomy — the three intrinsic motivators that retain top talent.
 
 ^
-At ABSA, I inherited the same pattern — siloed teams, no DevOps culture, manual processes. Within 12 months we halved cycle times. The fix isn't heroism — it's system design. Conway's Law tells us organisations create systems that mirror their communication structures. Silos create barriers to velocity. That's exactly what we need to break.
+At Red Bank, I inherited the same pattern — siloed teams, no DevOps culture, manual processes. Within 12 months we halved cycle times. The fix isn't heroism — it's system design. Conway's Law tells us organisations create systems that mirror their communication structures. Silos create barriers to velocity. That's exactly what we need to break.
 
 ---
 
@@ -93,7 +93,7 @@ At ABSA, I inherited the same pattern — siloed teams, no DevOps culture, manua
 ## The 12–24 month roadmap
 
 ^
-Strategy planning — mapping team structures, coaching cadence, delivery metrics, and maturity journeys. This is the real, messy work of transformation. At ABSA, I ran sessions exactly like this to map our path from silos to cross-functional delivery.
+Strategy planning — mapping team structures, coaching cadence, delivery metrics, and maturity journeys. This is the real, messy work of transformation. At Red Bank, I ran sessions exactly like this to map our path from silos to cross-functional delivery.
 
 ---
 
@@ -110,7 +110,7 @@ Strategy planning — mapping team structures, coaching cadence, delivery metric
 These overlap deliberately. You can't do everything at once with 10 people — sequence ruthlessly.
 
 ^
-At AXA, I ran shadow deployments at 20% traffic while stabilising the main system. Parallel tracks, managed risk. At Barclays ABSA, I built a multi-year capability-based technology roadmap for digital banking across Africa. The quarterly breakdown: Q1 — incident management, MTTR <2hrs, CI/CD baseline, code review 100%. Q2 — deploy weekly, bugs <8, Architecture Review Board, microservices pilot, Country 1 prep. Q3 — DevOps maturity L3, migration 60%, Country 1 launch. Q4 — migration 80%, API gateway, real-time payments MVP, AI/ML pilot.
+At AXA, I ran shadow deployments at 20% traffic while stabilising the main system. Parallel tracks, managed risk. At Barclays Red Bank Group, I built a multi-year capability-based technology roadmap for digital banking across Africa. The quarterly breakdown: Q1 — incident management, MTTR <2hrs, CI/CD baseline, code review 100%. Q2 — deploy weekly, bugs <8, Architecture Review Board, microservices pilot, Country 1 prep. Q3 — DevOps maturity L3, migration 60%, Country 1 launch. Q4 — migration 80%, API gateway, real-time payments MVP, AI/ML pilot.
 
 ---
 
@@ -150,7 +150,7 @@ The first 90 days are a sprint — not a strategy offsite. Every step counts, ev
 **Sequencing principle** — Remove load before adding process. Contractors absorb BAU burden first. New practices roll in incrementally — not a big bang on day 31.
 
 ^
-At ABSA, I called these the "Practices of Mastery" — five non-negotiable habits: Check It In, Code Review, Code Style, TDD, Automation. You don't need a strategy document to start. Code review compliance alone typically reduces defect leakage by 30-40%. Critically, the existing team must feel relief before they feel new demands — otherwise transformation becomes just another burden on already-stretched people. The support ticket feedback loop is critical — tickets are up 40% and that's a lagging indicator of platform instability. In month 1 we analyse the top 10 categories, identify root causes, and feed them directly into the sprint backlog. A self-service knowledge base handles repeat queries immediately. By month 3, ticket-to-bug triage is a weekly ritual.
+At Red Bank, I called these the "Practices of Mastery" — five non-negotiable habits: Check It In, Code Review, Code Style, TDD, Automation. You don't need a strategy document to start. Code review compliance alone typically reduces defect leakage by 30-40%. Critically, the existing team must feel relief before they feel new demands — otherwise transformation becomes just another burden on already-stretched people. The support ticket feedback loop is critical — tickets are up 40% and that's a lagging indicator of platform instability. In month 1 we analyse the top 10 categories, identify root causes, and feed them directly into the sprint backlog. A self-service knowledge base handles repeat queries immediately. By month 3, ticket-to-bug triage is a weekly ritual.
 
 ---
 
@@ -165,7 +165,7 @@ At ABSA, I called these the "Practices of Mastery" — five non-negotiable habit
 **Architecture** — API and service inventory. Top 5 tech debt items. Draft target-state architecture.
 
 ^
-The Two Product Principle prevents the false choice between "features or debt." I developed this at ABSA — every release carries both customer value and technical improvements, by design.
+The Two Product Principle prevents the false choice between "features or debt." I developed this at Red Bank — every release carries both customer value and technical improvements, by design.
 
 ---
 
@@ -201,7 +201,7 @@ At Discovery, I ran monthly delivery reports to Manulife leadership tracking exa
 *By day 90: EXCO sees improving delivery, a credible roadmap, and a team that believes they can win.*
 
 ^
-The Two Product Principle prevents the false choice between "features or debt." I developed this at ABSA — every release carries both customer value and technical improvements, by design. At Discovery, I ran monthly delivery reports to Manulife leadership tracking exactly these dimensions. Transparency builds trust. The governance structures — ARB, POPIA checklist, partner SLAs — are all established by day 90 so the system can run without heroics.
+The Two Product Principle prevents the false choice between "features or debt." I developed this at Red Bank — every release carries both customer value and technical improvements, by design. At Discovery, I ran monthly delivery reports to Manulife leadership tracking exactly these dimensions. Transparency builds trust. The governance structures — ARB, POPIA checklist, partner SLAs — are all established by day 90 so the system can run without heroics.
 
 ---
 
@@ -213,7 +213,7 @@ The Two Product Principle prevents the false choice between "features or debt." 
 ## From inconsistent to elite
 
 ^
-DevOps isn't a tool or a role — it's a culture. And it has to be built with the local context in mind. At ABSA, our transformation programme taught me that the code is only half the story. The other half is the system that surrounds it.
+DevOps isn't a tool or a role — it's a culture. And it has to be built with the local context in mind. At Red Bank, our transformation programme taught me that the code is only half the story. The other half is the system that surrounds it.
 
 ---
 
@@ -249,7 +249,7 @@ This is why I'd run a Value Stream Mapping exercise in the first 30 days. At AXA
 *These are the foundations that make everything else possible.*
 
 ^
-I built this framework at ABSA. Target: 30% cross-functional with DevOps practices per sprint in year one, 50% with automated builds in 6 months. We hit both. These practices compound — each amplifies the others.
+I built this framework at Red Bank. Target: 30% cross-functional with DevOps practices per sprint in year one, 50% with automated builds in 6 months. We hit both. These practices compound — each amplifies the others.
 
 ---
 
@@ -270,7 +270,7 @@ I built this framework at ABSA. Target: 30% cross-functional with DevOps practic
 **Key insight:** Most teams discover 80%+ of lead time is **waiting**, not working. The biggest gains come from eliminating queues and handoffs — not making people work faster. *(Flow Engineering, Pereira & Davis)*
 
 ^
-At ABSA, I built this culture from scratch. At AXA, I used shadow deployments at 20% traffic to validate ML models before full rollout. The DORA + Flow metrics framework gives us both sides: DORA tells us if we're shipping quality at speed; Flow metrics tell us where the waste lives. I'd run a Value Stream Mapping exercise in the first 30 days. At AXA, CI/CD pipelines cut deployment lead times by 30% — most of that gain came from removing wait states, not making people work faster.
+At Red Bank, I built this culture from scratch. At AXA, I used shadow deployments at 20% traffic to validate ML models before full rollout. The DORA + Flow metrics framework gives us both sides: DORA tells us if we're shipping quality at speed; Flow metrics tell us where the waste lives. I'd run a Value Stream Mapping exercise in the first 30 days. At AXA, CI/CD pipelines cut deployment lead times by 30% — most of that gain came from removing wait states, not making people work faster.
 
 ---
 
@@ -299,7 +299,7 @@ At ABSA, I built this culture from scratch. At AXA, I used shadow deployments at
 **Security baked in:** SAST/DAST in CI/CD · Zero-trust · TLS 1.3 · Container scanning · Immutable infrastructure · Quarterly pen testing
 
 ^
-Domain-Driven Design. Each domain independently deployable with clear API contracts. Security is automated into the pipeline, not bolted on after — at Old Mutual I used Auth0 CIAM for enterprise-grade security; at Sanlam, regulatory architecture alignment during de-merger. This is how I architected pan-African digital banking at Barclays ABSA and the microservices transformation at John Lewis.
+Domain-Driven Design. Each domain independently deployable with clear API contracts. Security is automated into the pipeline, not bolted on after — at Old Mutual I used Auth0 CIAM for enterprise-grade security; at Sanlam, regulatory architecture alignment during de-merger. This is how I architected pan-African digital banking at Barclays Red Bank Group and the microservices transformation at John Lewis.
 
 ---
 
@@ -363,7 +363,7 @@ This is the foundation that makes AI possible. At AXA, I learned that ML without
 ## One roadmap, one language
 
 ^
-The OAR model — Objective, Assumption, Reflection — a framework from my ABSA playbook, refined at Equal Experts. It's product thinking applied to technology decisions: Act on objectives, Orient around assumptions, Reflect on measures. Data-driven decision making is the throughline.
+The OAR model — Objective, Assumption, Reflection — a framework from my Red Bank playbook, refined at Equal Experts. It's product thinking applied to technology decisions: Act on objectives, Orient around assumptions, Reflect on measures. Data-driven decision making is the throughline.
 
 ---
 
@@ -411,7 +411,7 @@ The OAR model — Objective, Assumption, Reflection — frames every decision. W
 
 **Financial Services** — SARB payments alignment. AML controls. Transaction monitoring. Full audit trail.
 
-**Governance** — Architecture Review Board (built and governed at Barclays ABSA). Change Advisory Board. Quarterly reporting. Annual pen testing.
+**Governance** — Architecture Review Board (built and governed at Barclays Red Bank Group). Change Advisory Board. Quarterly reporting. Annual pen testing.
 
 ---
 
@@ -448,7 +448,7 @@ Ongoing: Status page, quarterly business reviews, joint DR testing.
 *They don't need perfection on day one. They need a credible plan with measurable progress.*
 
 ^
-At Barclays ABSA I built and governed the Architecture Review Board. At Sanlam, regulatory architecture alignment during de-merger. At Discovery, I managed the Manulife partnership — aligning roadmaps, managing escalation, building trust through transparency.
+At Barclays Red Bank Group I built and governed the Architecture Review Board. At Sanlam, regulatory architecture alignment during de-merger. At Discovery, I managed the Manulife partnership — aligning roadmaps, managing escalation, building trust through transparency.
 
 ---
 
@@ -460,7 +460,7 @@ At Barclays ABSA I built and governed the Architecture Review Board. At Sanlam, 
 ## Building a high-performance team
 
 ^
-Culture is built by teams, together. The ELSA model — Event, Language, Structure, Agency — from my ABSA transformation shows how: create the right events, which change the language, which changes the structure, which gives people agency. Culture isn't posters on walls — it's systems that shape behaviour.
+Culture is built by teams, together. The ELSA model — Event, Language, Structure, Agency — from my Red Bank transformation shows how: create the right events, which change the language, which changes the structure, which gives people agency. Culture isn't posters on walls — it's systems that shape behaviour.
 
 ---
 
@@ -477,7 +477,7 @@ Culture is built by teams, together. The ELSA model — Event, Language, Structu
 "You build it, you run it." Cross-functional. Embedded QA.
 
 ^
-Team Topologies combined with what I built at ABSA. When I moved from silos to cross-functional teams, we halved cycle times.
+Team Topologies combined with what I built at Red Bank. When I moved from silos to cross-functional teams, we halved cycle times.
 
 ---
 
@@ -500,7 +500,7 @@ Team Topologies combined with what I built at ABSA. When I moved from silos to c
 **Target: 18% → <10% attrition · 10 → 25+ headcount in 12 months**
 
 ^
-At Discovery, the biggest retention factor wasn't compensation — it was whether engineers felt their work mattered. For hiring, at ABSA I built the engineering brand from zero — community events, internal tech talks, open coaching sessions. That pipeline became self-sustaining. The contractor bridge is specifically designed to reduce load on existing staff, not add to it — they arrive with onboarding documentation and are scoped to tech debt and stability work where deep domain knowledge isn't required.
+At Discovery, the biggest retention factor wasn't compensation — it was whether engineers felt their work mattered. For hiring, at Red Bank I built the engineering brand from zero — community events, internal tech talks, open coaching sessions. That pipeline became self-sustaining. The contractor bridge is specifically designed to reduce load on existing staff, not add to it — they arrive with onboarding documentation and are scoped to tech debt and stability work where deep domain knowledge isn't required.
 
 ---
 
@@ -525,7 +525,7 @@ Equivalent comp, seniority, and organisational influence at each level. Not a to
 **Existing team commitment** — Current team members are the anchors. They get first consideration for leadership roles in the new structure. Nobody who held this company together gets sidelined without a conversation and a real option.
 
 ^
-Purpose, Autonomy, and Mastery are necessary but not sufficient — people also need to be fairly compensated and see a credible future. The IC track matters: at ABSA and Discovery, our best engineers didn't want to manage people, and losing them to management-only career paths was a retention failure. Stay interviews, not just exit interviews. Regular market benchmarking, not annual surprises.
+Purpose, Autonomy, and Mastery are necessary but not sufficient — people also need to be fairly compensated and see a credible future. The IC track matters: at Red Bank and Discovery, our best engineers didn't want to manage people, and losing them to management-only career paths was a retention failure. Stay interviews, not just exit interviews. Regular market benchmarking, not annual surprises.
 
 ---
 
@@ -544,7 +544,7 @@ Purpose, Autonomy, and Mastery are necessary but not sufficient — people also 
 **If hiring lags:** prioritise stream-aligned teams. Platform runs lean. Timelines flex, commitments don't disappear.
 
 ^
-At Discovery, the biggest retention factor wasn't compensation — it was whether engineers felt their work mattered. At ABSA I built the engineering brand from zero — community events, internal tech talks, open coaching sessions. The contractor bridge reduces load on existing staff, not adds to it — they arrive with onboarding documentation and are scoped to tech debt work. Existing team members are the anchors — first consideration for leadership roles. Nobody who held this company together gets sidelined without a conversation and a real option. Purpose, Autonomy, and Mastery are necessary but not sufficient — people also need fair comp and a credible future. The IC track matters: our best engineers didn't want to manage people.
+At Discovery, the biggest retention factor wasn't compensation — it was whether engineers felt their work mattered. At Red Bank I built the engineering brand from zero — community events, internal tech talks, open coaching sessions. The contractor bridge reduces load on existing staff, not adds to it — they arrive with onboarding documentation and are scoped to tech debt work. Existing team members are the anchors — first consideration for leadership roles. Nobody who held this company together gets sidelined without a conversation and a real option. Purpose, Autonomy, and Mastery are necessary but not sufficient — people also need fair comp and a credible future. The IC track matters: our best engineers didn't want to manage people.
 
 ---
 
@@ -556,7 +556,7 @@ At Discovery, the biggest retention factor wasn't compensation — it was whethe
 ## What I'd track and why
 
 ^
-Metrics and flow — the messy, real work of transformation. At ABSA, I mapped team structures, coaching cadence, maturity journeys, and delivery metrics to build a system that could measure and improve itself.
+Metrics and flow — the messy, real work of transformation. At Red Bank, I mapped team structures, coaching cadence, maturity journeys, and delivery metrics to build a system that could measure and improve itself.
 
 ---
 
@@ -649,7 +649,7 @@ The road ahead isn't always clear. In any transformation, there are moments wher
 | Months 4–6 | 50% | 50% |
 | Months 7+ | 30% | **70%** |
 
-**Evidence:** At ABSA, halved cycle times by investing in DevOps practices first. DORA: elite performers ship 182x more frequently AND have 8x lower failure rates.
+**Evidence:** At Red Bank, halved cycle times by investing in DevOps practices first. DORA: elite performers ship 182x more frequently AND have 8x lower failure rates.
 
 *If you want to go faster in 6 months, invest in the foundations today.*
 
@@ -691,7 +691,7 @@ MTTR < 2 hrs · Deploy weekly · Critical bugs < 5/month
 *Launching into new markets on an unstable platform risks losing both the new market AND the existing one.*
 
 ^
-At Barclays ABSA, I designed architecture for digital banking across Africa. We sequenced on platform readiness, not market ambition alone.
+At Barclays Red Bank Group, I designed architecture for digital banking across Africa. We sequenced on platform readiness, not market ambition alone.
 
 ---
 
@@ -713,7 +713,7 @@ At Barclays ABSA, I designed architecture for digital banking across Africa. We 
 *Launching into new markets on an unstable platform risks losing both the new market AND the existing one.*
 
 ^
-At Old Mutual, I used Auth0 rather than building IAM. At John Lewis, I advised on sunset vs. modernise. With 10 engineers, every hour matters — preserve capacity for what makes ABC unique. At Barclays ABSA, I designed architecture for digital banking across Africa. We sequenced on platform readiness, not market ambition alone.
+At Old Mutual, I used Auth0 rather than building IAM. At John Lewis, I advised on sunset vs. modernise. With 10 engineers, every hour matters — preserve capacity for what makes ABC unique. At Barclays Red Bank Group, I designed architecture for digital banking across Africa. We sequenced on platform readiness, not market ambition alone.
 
 ---
 
@@ -730,7 +730,7 @@ Strategy meets execution. In every transformation, you need someone who's played
 
 [.hide]
 
-# The ABSA Story
+# The Red Bank Story
 
 When I arrived, there was no DevOps culture. Six siloed teams. Manual deployments. Engineers leaving. Sound familiar?
 
@@ -746,11 +746,11 @@ When I arrived, there was no DevOps culture. Six siloed teams. Manual deployment
 
 # Proof Across Eight Organisations
 
-**Scaled delivery:** ABSA (pan-African DevOps), Discovery/Manulife (multi-market at scale), Accenture (delivery value chains)
+**Scaled delivery:** Red Bank (pan-African DevOps), Discovery/Manulife (multi-market at scale), Accenture (delivery value chains)
 
 **Migrated platforms:** John Lewis (£1M/month losses → cloud-native), AXA (ML to production, 30% faster deploys), Old Mutual (AWS + Auth0 CIAM)
 
-**Navigated regulation:** Sanlam (de-merger architecture), Barclays ABSA (ARB governance), Discovery (cross-border compliance)
+**Navigated regulation:** Sanlam (de-merger architecture), Barclays Red Bank Group (ARB governance), Discovery (cross-border compliance)
 
 *Every recommendation in this deck comes from something I've shipped, scaled, or rescued.*
 
@@ -758,12 +758,12 @@ When I arrived, there was no DevOps culture. Six siloed teams. Manual deployment
 
 # Why Me
 
-**The ABSA Story:** No DevOps culture. Six siloed teams. Manual deployments. Engineers leaving. Sound familiar? Built the "Six Conditions for Transformation." **Result:** Halved cycle times. +5% engagement. 50% of teams with automated builds in 6 months. ARB still governing today.
+**The Red Bank Story:** No DevOps culture. Six siloed teams. Manual deployments. Engineers leaving. Sound familiar? Built the "Six Conditions for Transformation." **Result:** Halved cycle times. +5% engagement. 50% of teams with automated builds in 6 months. ARB still governing today.
 
 **Proof across eight organisations:**
-**Scaled:** ABSA (pan-African DevOps), Discovery/Manulife (multi-market), Accenture (delivery value chains)
+**Scaled:** Red Bank (pan-African DevOps), Discovery/Manulife (multi-market), Accenture (delivery value chains)
 **Migrated:** John Lewis (£1M/month losses → cloud-native), AXA (ML to production), Old Mutual (AWS + Auth0)
-**Regulated:** Sanlam (de-merger architecture), Barclays ABSA (ARB governance), Discovery (cross-border compliance)
+**Regulated:** Sanlam (de-merger architecture), Barclays Red Bank Group (ARB governance), Discovery (cross-border compliance)
 
 *Every recommendation in this deck comes from something I've shipped, scaled, or rescued.*
 
@@ -810,7 +810,7 @@ bhinson@plerk.co.za · 082 565 4665
 I welcome your questions.
 
 ^
-Every challenge in the ABC Technologies case study maps directly to something I've delivered — DevOps transformation at ABSA, African expansion architecture at Barclays, cloud migration at John Lewis, partner management at Discovery, CI/CD excellence at AXA, regulatory governance at Sanlam. This isn't theory — it's pattern recognition built over two decades. I'd be honoured to build it here. Thank you.
+Every challenge in the ABC Technologies case study maps directly to something I've delivered — DevOps transformation at Red Bank, African expansion architecture at Barclays, cloud migration at John Lewis, partner management at Discovery, CI/CD excellence at AXA, regulatory governance at Sanlam. This isn't theory — it's pattern recognition built over two decades. I'd be honoured to build it here. Thank you.
 
 ---
 
