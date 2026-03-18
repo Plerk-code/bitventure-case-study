@@ -60,20 +60,20 @@ This slide exists because EXCO needs to feel the urgency before I present the so
 
 # Diagnosis: A Systems Problem, Not a Talent Problem
 
-| Metric | ABC Today | DORA Elite | Delta | Source |
-|--------|-----------|-----------|-------|--------|
-| On-time delivery | **62%** | 85%+ | +23% | Standish CHAOS |
-| Critical bugs/month | **18** | <5 | -13 | DORA CFR |
-| MTTR | **6–10 hrs** | <1 hr | -5 to 9 hrs | DORA 2024 |
-| Deploy frequency | **2–3 weeks** | Daily | ~15x | DORA 2024 |
-| Test automation | **~45%** | 75%+ | +30% | Fowler/Google |
-| Cloud migration | **25%** | 100% | +75% | Board mandate |
-| Attrition | **18%** | <10% | -8%+ | Mercer SA |
-| Support tickets | **+40% YoY** | Declining | Lagging | Symptom |
+| Metric | ABC Today | Target | Delta | Source |
+|--------|-----------|--------|-------|--------|
+| On-time delivery | **62%** | 85%+ | **+23%** | Standish CHAOS |
+| Critical bugs | **18**/month | <5 | **-13** | DORA CFR |
+| MTTR | **6–10 hrs** | <1 hr | **-5 to 9 hrs** | DORA 2024 |
+| Deploy frequency | **2–3 weeks** | Daily | **~15x** | DORA 2024 |
+| Test automation | **~45%** | 75%+ | **+30%** | Fowler/Google |
+| Cloud migration | **25%** | 100% | **+75%** | Board mandate |
+| Attrition | **18%** | <10% | **-8%+** | Mercer SA |
+| Support tickets | **+40% YoY** | Declining | **Lagging** | Symptom |
 
-**Root causes:** Structural debt (silos, handoffs) · Process debt (inconsistent reviews, partial QA) · Architectural debt (monolith at 75%) · Cultural debt (no path to mastery, purpose, or autonomy)
+**Root causes:** Structural debt (silos) · Process debt (inconsistent reviews) · Architectural debt (75% monolith) · Cultural debt (no path to mastery or autonomy)
 
-**The good news:** Revenue is up, customers are growing, partnerships are expanding. The fundamentals are strong. This is fixable.
+*Revenue is up, customers growing, partnerships expanding. The fundamentals are strong. This is fixable.*
 
 ^
 I'm combining the Vital Signs and Root Cause into one slide because the panel doesn't need two slides to understand the problem. The delta column and source column are there for when someone asks "where does 85% come from?" — I can answer immediately without fumbling. At ABSA, I inherited the same pattern: siloed teams, no DevOps culture, manual processes. Within 12 months we halved cycle times. The fix isn't heroism — it's system design. Conway's Law tells us organisations ship their org chart. Silos create silos in the code.
@@ -373,6 +373,34 @@ I'm telling the ABSA story as a mirror, not a trophy. The panel should hear this
 
 ^
 At Discovery, I built Capex/Opex models for Manulife leadership to justify exactly this kind of investment. The key is the last line: frame the alternative. EXCO isn't choosing between "spend R25M" and "spend nothing." They're choosing between "spend R25M and unlock R200M" or "spend nothing and lose R50M+ in partner risk, regulatory exposure, and competitive decay." Every rand maps to a board-approved initiative.
+
+---
+
+# If We Hit Every Target: The Financial Picture
+
+**Revenue unlocked (Year 2 run-rate):**
+
+| Source | Conservative | Optimistic | Assumption |
+|--------|-------------|-----------|------------|
+| 2 new African markets | R75M | R125M | 15–25% of current R500M base, phased entry |
+| Real-time payments product | R40M | R60M | SA card transactions growing 10.4% YoY, API-first capture |
+| AI-enhanced lending (credit scoring ML) | R15M | R30M | 10–15% increase in approval accuracy → higher yield, lower defaults |
+| Partner retention (avoided loss) | R20M | R50M | Banking partner penalty/exit clause avoided |
+| **Total revenue impact** | **R150M** | **R265M** | |
+
+**Cost savings (annual, from Year 2):**
+
+| Source | Saving | How |
+|--------|--------|-----|
+| Cloud infrastructure | R15–25M/yr | 20–30% infra cost reduction at 95% migration (industry benchmark) |
+| Attrition reduction | R3–5M/yr | 18%→<10% = ~1 fewer senior hire/yr × R1.2M replacement cost + R2M productivity recovery |
+| MTTR improvement | R4–8M/yr | 6-10hrs→<1hr. Estimated 2 major incidents/month × R200–400K/hr in lost transactions + partner penalties |
+| Support ticket deflection | R1–2M/yr | -20% YoY volume + AI triage in Y2 deflects 30-40%. Reduces support headcount growth |
+| Engineering rework reduction | R3–5M/yr | Bugs 18→<3/month. Industry data: 30-40% of dev time is rework. 15 fewer bugs/month × recovered capacity |
+| **Total cost savings** | **R26–45M/yr** | |
+
+^
+Investment: R22–29M Year 1. Return: R150–265M revenue unlocked + R26–45M annual savings. Payback period: under 12 months on cost savings alone, before counting new revenue. These are conservative-to-optimistic ranges, not guarantees. The conservative case assumes slower market entry, partial AI adoption, and moderate cloud savings. The optimistic case assumes full execution on all three board bets. Revenue estimates for new markets are sized proportionally to ABC's current R500M base and SA fintech growth projections (USD 3.7–14.9B market by 2033). MTTR cost avoidance is based on fintech transaction volume — if ABC processes even a fraction of the ZAR 2.9 trillion SA card transaction market, each hour of downtime during peak has material revenue impact. The attrition calculation uses Mercer SA benchmarks for senior engineer replacement cost (1–2x annual salary) plus 6–9 months of ramping productivity. The rework reduction uses the Consortium for IT Software Quality (CISQ) finding that poor software quality costs organisations 30–40% of engineering capacity in unplanned rework.
 
 ---
 
