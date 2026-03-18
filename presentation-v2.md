@@ -378,19 +378,19 @@ At Discovery, I built Capex/Opex models for Manulife leadership to justify exact
 
 # If We Hit Every Target: The Financial Picture
 
-![inline](images/revenue-unlocked.png)
+![inline](/Users/benjaminhinson/Documents/Bit Venture Interview/images/revenue-unlocked.png)
 
 ---
 
 # The Savings That Fund the Transformation
 
-![inline](images/cost-savings.png)
+![inline](/Users/benjaminhinson/Documents/Bit Venture Interview/images/cost-savings.png)
 
 ---
 
 # Investment vs. Return
 
-![inline](images/investment-vs-return.png)
+![inline](/Users/benjaminhinson/Documents/Bit Venture Interview/images/investment-vs-return.png)
 
 **Investment:** R22–29M Year 1 · **Revenue unlocked:** R150–265M · **Annual savings:** R26–45M/yr
 
