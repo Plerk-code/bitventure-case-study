@@ -376,21 +376,21 @@ At Discovery, I built Capex/Opex models for Manulife leadership to justify exact
 
 ---
 
-![](https://raw.githubusercontent.com/Plerk-code/bitventure-case-study/main/images/revenue-unlocked.png)
+# Revenue Unlocked — Year 2 Run-Rate
 
-# [fit] Revenue Unlocked
-
----
-
-![](https://raw.githubusercontent.com/Plerk-code/bitventure-case-study/main/images/cost-savings.png)
-
-# [fit] Annual Cost Savings
+![inline](https://raw.githubusercontent.com/Plerk-code/bitventure-case-study/main/images/revenue-unlocked.png)
 
 ---
 
-![](https://raw.githubusercontent.com/Plerk-code/bitventure-case-study/main/images/investment-vs-return.png)
+# Annual Cost Savings — From Year 2
 
-# [fit] Investment vs. Return
+![inline](https://raw.githubusercontent.com/Plerk-code/bitventure-case-study/main/images/cost-savings.png)
+
+---
+
+# Investment vs. Return
+
+![inline](https://raw.githubusercontent.com/Plerk-code/bitventure-case-study/main/images/investment-vs-return.png)
 
 ^
 Investment: R22–29M Year 1. Return: R150–265M revenue unlocked + R26–45M annual savings. Payback period: under 12 months on cost savings alone, before counting new revenue. These are conservative-to-optimistic ranges, not guarantees. The conservative case assumes slower market entry, partial AI adoption, and moderate cloud savings. The optimistic case assumes full execution on all three board bets. Revenue estimates for new markets are sized proportionally to ABC's current R500M base and SA fintech growth projections (USD 3.7–14.9B market by 2033). MTTR cost avoidance is based on fintech transaction volume — if ABC processes even a fraction of the ZAR 2.9 trillion SA card transaction market, each hour of downtime during peak has material revenue impact. The attrition calculation uses Mercer SA benchmarks for senior engineer replacement cost (1–2x annual salary) plus 6–9 months of ramping productivity. The rework reduction uses the Consortium for IT Software Quality (CISQ) finding that poor software quality costs organisations 30–40% of engineering capacity in unplanned rework.
