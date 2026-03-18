@@ -336,18 +336,22 @@ At Barclays Red Bank Group, I designed architecture for digital banking across A
 
 # The Red Bank Mirror
 
-When I arrived: **six siloed teams, no DevOps culture, manual deployments, engineers leaving.** Sound familiar?
+When I arrived: **six siloed teams, no DevOps culture, manual deployments, engineers leaving.**
 
-**What I built:** Six Conditions for Transformation. Practices of Mastery. Community through coaching, guilds, and blameless post-mortems.
+Sound familiar?
 
-**What changed:** Halved cycle times in 12 months. +5% engagement. 50% of teams with automated builds in 6 months. ARB still governing today.
+---
 
-**Also delivered at:** Discovery/Manulife (multi-market at scale) · AXA (ML to production) · John Lewis (£1M/month losses → cloud-native) · Old Mutual (AWS + Auth0) · Sanlam (regulatory architecture)
+# What Changed at Red Bank
 
-*Every challenge in this case study is one I've already solved. Not in a book — in a codebase, with a team, under pressure.*
+**Halved cycle times** in 12 months
+**+5% engagement** · **50% automated builds** in 6 months
+**ARB still governing today**, years after I left
+
+*Every challenge in this case study is one I've already solved — in a codebase, with a team, under pressure.*
 
 ^
-I'm telling the Red Bank story as a mirror, not a trophy. The panel should hear this and think "that IS our situation." The other proof points: Discovery/Manulife (multi-market delivery at scale, partner management, Capex/Opex modelling), AXA (ML to production, CI/CD pipelines, 30% faster deploys), John Lewis (£1M/month losses fixed via cloud migration), Old Mutual (AWS + Auth0 CIAM), Sanlam (de-merger regulatory architecture), Accenture (delivery value chain benchmarking). Every recommendation in this deck comes from something I've shipped, scaled, or rescued.
+The Red Bank story is a mirror, not a trophy. The panel should hear this and think "that IS our situation." Also delivered at: Discovery/Manulife (multi-market delivery at scale, partner management, Capex/Opex modelling), AXA (ML to production, CI/CD pipelines, 30% faster deploys), John Lewis (£1M/month losses fixed via cloud migration), Old Mutual (AWS + Auth0 CIAM), Sanlam (de-merger regulatory architecture), Accenture (delivery value chain benchmarking). Every recommendation in this deck comes from something I've shipped, scaled, or rescued.
 
 ---
 
