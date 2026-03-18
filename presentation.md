@@ -50,19 +50,19 @@ Conway's Law tells us organisations create systems that reflect their communicat
 
 # The Vital Signs
 
-| Metric | ABC Today | Where We Need to Be |
-|--------|-----------|-------------------|
-| On-time delivery | **62%** | 85%+ |
-| Critical bugs/month | **18** | <5 |
-| MTTR | **6–10 hrs** | <1 hr |
-| Deploy frequency | **2–3 weeks** | Daily |
-| Test automation | **~45%** | 75%+ |
-| Cloud migration | **25%** | 100% |
-| Attrition | **18%** | <10% |
-| Support tickets | **+40%** | Declining |
+| Metric | ABC Today | Target | Delta |
+|--------|-----------|--------|-------|
+| On-time delivery | **62%** | 85%+ | **+23%** |
+| Critical bugs/month | **18** | <5 | **-13** |
+| MTTR | **6–10 hrs** | <1 hr | **-5 to 9 hrs** |
+| Deploy frequency | **2–3 weeks** | Daily | **~10–15x** |
+| Test automation | **~45%** | 75%+ | **+30%** |
+| Cloud migration | **25%** | 100% | **+75%** |
+| Attrition | **18%** | <10% | **-8%+** |
+| Support tickets | **+40%** | Declining | **Lagging** |
 
 ^
-Every metric is trending the wrong way. But the fundamentals are strong — revenue is up, customers growing, partnerships expanding. This is a systems problem, not a talent problem. I've seen this pattern before and resolved it.
+Every metric is trending the wrong way. But the fundamentals are strong — revenue is up, customers growing, partnerships expanding. This is a systems problem, not a talent problem. I've seen this pattern before and resolved it. Here's where each target comes from: On-time delivery 85%+ — Standish Group CHAOS reports and Agile maturity benchmarks; high-performing teams consistently hit 80–90% sprint commitment reliability. Critical bugs <5/month — DORA Change Failure Rate; elite performers sustain <5% change failure rate, which at ABC's deploy cadence maps to fewer than 5 critical bugs per month. Also aligns with Google SRE error budget practices. MTTR <1 hour — directly from the DORA 2024 State of DevOps Report; this is the Elite benchmark. ABC currently sits between Low and Medium. Deploy frequency daily — DORA 2024; Elite is on-demand, High is weekly. Daily sits between the two. ABC is currently in the Low tier at fortnightly. Test automation 75%+ — Martin Fowler's Testing Pyramid and Google's engineering practices target 70–80% unit coverage. Microsoft research shows defect leakage drops significantly above 70% — 75% is the inflection point where automated testing becomes a reliable safety net. Cloud migration 100% — this is a board-mandated objective, not an industry benchmark. The 12-month operational target is 80%, with 95%+ by month 18. Attrition <10% — LinkedIn Talent Insights and Mercer SA tech compensation surveys. SA tech industry average is 13–15%. Top SA employers like Discovery and Investec tech achieve 7–10%. At 18%, ABC is in crisis territory — replacing nearly 1 in 5 engineers annually. Support tickets declining — this is a lagging indicator, not a benchmarked target. It follows from improvements in MTTR, defect rates, and platform stability. The leading indicators are the other seven metrics.
 
 ---
 
