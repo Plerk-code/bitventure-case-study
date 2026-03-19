@@ -82,15 +82,15 @@ I'm combining the Vital Signs and Root Cause into one slide because the panel do
 
 # My Approach: Stabilise · Scale · Accelerate
 
-| Phase | Timeline | Focus | Business Outcome |
-|-------|----------|-------|-----------------|
-| **Stabilise** | Months 1–6 | Delivery predictability, incident response, quality gates, partner confidence | COO gets reliability, CRO gets controls, partner stays |
-| **Scale** | Months 4–18 | Cloud migration, API-first platform, team 10→25+, data platform | Architecture supports all three board bets |
-| **Accelerate** | Months 12–24 | New markets live, real-time payments, AI/ML differentiation | CEO gets growth, CPO gets innovation |
+| Phase | Timeline | Focus | Who Benefits |
+|-------|----------|-------|-------------|
+| **Stabilise** | Months 1–6 | Delivery, incidents, quality gates | COO, CRO, Partner |
+| **Scale** | Months 4–18 | Cloud, API-first, team 10→25+ | All three board bets |
+| **Accelerate** | Months 12–24 | New markets, payments, AI/ML | CEO, CPO |
 
-These overlap deliberately. Parallel tracks, managed risk — not sequential waterfall.
+These overlap deliberately — parallel tracks, managed risk.
 
-**The key constraint:** You can't do everything at once with 10 engineers. My job is to sequence ruthlessly so the board's ambitions land on a foundation that can support them.
+*You can't do everything at once with 10 engineers. My job is to sequence ruthlessly.*
 
 ^
 Notice the "Business Outcome" column — every phase is framed in terms of what the C-suite stakeholder gets, not what engineering does. At AXA, I ran shadow deployments at 20% traffic while stabilising the main system. At Barclays Red Bank Group, I built a multi-year capability roadmap for digital banking across Africa. The lesson: sequence on platform readiness, not market ambition alone.
