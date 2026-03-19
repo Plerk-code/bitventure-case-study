@@ -58,22 +58,31 @@ This slide exists because EXCO needs to feel the urgency before I present the so
 
 ---
 
-# Diagnosis: A Systems Problem, Not a Talent Problem
+# Diagnosis: The Vital Signs
 
-| Metric | ABC Today | Target | Delta | Source |
-|--------|-----------|--------|-------|--------|
-| On-time delivery | **62%** | 85%+ | **+23%** | Standish CHAOS |
-| Critical bugs | **18**/month | <5 | **-13** | DORA CFR |
-| MTTR | **6–10 hrs** | <1 hr | **-5 to 9 hrs** | DORA 2024 |
-| Deploy frequency | **2–3 weeks** | Daily | **~15x** | DORA 2024 |
-| Test automation | **~45%** | 75%+ | **+30%** | Fowler/Google |
-| Cloud migration | **25%** | 100% | **+75%** | Board mandate |
-| Attrition | **18%** | <10% | **-8%+** | Mercer SA |
-| Support tickets | **+40% YoY** | Declining | **Lagging** | Symptom |
+| Metric | ABC Today | Target | Delta |
+|--------|-----------|--------|-------|
+| On-time delivery | **62%** | 85%+ | **+23%** |
+| Critical bugs | **18**/month | <5 | **-13** |
+| MTTR | **6–10 hrs** | <1 hr | **-5 to 9 hrs** |
+| Deploy frequency | **2–3 weeks** | Daily | **~15x** |
+| Test automation | **~45%** | 75%+ | **+30%** |
+| Cloud migration | **25%** | 100% | **+75%** |
+| Attrition | **18%** | <10% | **-8%+** |
 
-**Root causes:** Structural debt (silos) · Process debt (inconsistent reviews) · Architectural debt (75% monolith) · Cultural debt (no path to mastery or autonomy)
+*A systems problem, not a talent problem. The fundamentals are strong. This is fixable.*
 
-*Revenue is up, customers growing, partnerships expanding. The fundamentals are strong. This is fixable.*
+---
+
+# Root Causes: Four Types of Debt
+
+**Structural** — Silos across 6 teams. Handoffs multiply, context is lost.
+
+**Process** — Inconsistent code reviews, partial QA. Quality is a lottery.
+
+**Architectural** — 75% monolith. Every new feature risks destabilising production.
+
+**Cultural** — 18% attrition. No path to mastery, purpose, or autonomy.
 
 ^
 I'm combining the Vital Signs and Root Cause into one slide because the panel doesn't need two slides to understand the problem. The delta column and source column are there for when someone asks "where does 85% come from?" — I can answer immediately without fumbling. At Red Bank, I inherited the same pattern: siloed teams, no DevOps culture, manual processes. Within 12 months we halved cycle times. The fix isn't heroism — it's system design. Conway's Law tells us organisations ship their org chart. Silos create silos in the code.
